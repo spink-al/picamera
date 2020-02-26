@@ -1,5 +1,12 @@
 .. -*- rst -*-
 
+Changes:
+
+A/D Gains and LS from (https://github.com/rwb27/picamera)
+
+Disabled all \*Preview\* parts of code - no long delay after changing exposure, gain, etc. 
+(Without this delays after change of exp/gain were up to 80s in long exposure).
+
 ========
 picamera
 ========

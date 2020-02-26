@@ -473,7 +473,7 @@ class PiOverlayRenderer(PiRenderer):
         buf.data = source
         self.renderer.inputs[0].send_buffer(buf)
 
-
+'''
 class PiPreviewRenderer(PiRenderer):
     """
     Represents an :class:`~mmalobj.MMALRenderer` which uses the camera's
@@ -562,7 +562,7 @@ class PiPreviewRenderer(PiRenderer):
 
         .. versionadded:: 1.11
         """)
-
+'''
 
 class PiNullSink(object):
     """

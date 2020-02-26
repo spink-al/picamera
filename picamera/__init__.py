@@ -107,9 +107,8 @@ from picamera.encoders import (
 from picamera.renderers import (
     PiRenderer,
     PiOverlayRenderer,
-    PiPreviewRenderer,
     PiNullSink,
-    )
+    ) #PiPreviewRenderer,
 from picamera.streams import PiCameraCircularIO, CircularIO, BufferIO
 from picamera.color import Color, Red, Green, Blue, Hue, Lightness, Saturation
 
